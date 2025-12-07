@@ -1,0 +1,13 @@
+service: "service.py:EnergyConsumptionService"
+
+include:
+  - "service.py"
+  - "test_request.py"
+models:
+  - consommation_model:latest
+python:
+  packages:
+    - scikit-learn==1.7.1
+    - pandas==2.2.2
+    - pydantic==2.11.0
+    - bentoml==1.4.22
