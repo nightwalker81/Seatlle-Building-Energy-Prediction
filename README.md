@@ -129,7 +129,7 @@ Models tested:
 - KNN Regressor  
 
 ### ✔ Final chosen model  
-*(e.g., Random Forest Regressor — update if different)*
+*Gradient Boosting*
 
 ### ✔ Metrics evaluated  
 - RMSE  
